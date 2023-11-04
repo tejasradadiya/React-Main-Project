@@ -1,0 +1,352 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "category": [
+    {
+      "category_name": "All",
+      "image_url": "https://img.freepik.com/premium-photo/traditional-spanish-food-hamon_181303-5306.jpg?w=740"
+    },
+    {
+      "category_name": "mobile",
+      "image_url": "https://rukminim1.flixcart.com/fk-p-flap/80/80/image/444802d58a814f57.png?q=100"
+    },
+    {
+      "category_name": "eletronics",
+      "image_url": "https://rukminim1.flixcart.com/fk-p-flap/80/80/image/ce3744f59fadb72e.png?q=100"
+    },
+    {
+      "category_name": "shoes",
+      "image_url": "https://rukminim1.flixcart.com/fk-p-flap/80/80/image/e4b01f3d783c49a1.png?q=100"
+    }
+  ],
+  "users": [
+    {
+      "name": "radadiyatejas",
+      "email": "radadiyatejas456@gmail.com",
+      "password": "0987654321",
+      "id": 1
+    },
+    {
+      "name": "radadiyatejas",
+      "email": "radadiyatejas28@gmail.com",
+      "password": "0987654321",
+      "id": 2
+    },
+    {
+      "name": "fgbdg",
+      "email": "tejasradadiya",
+      "password": "1234567890",
+      "id": 3
+    },
+    {
+      "name": "f",
+      "email": "d",
+      "password": "f",
+      "id": 4
+    },
+    {
+      "name": "f",
+      "email": "s",
+      "password": "d",
+      "id": 5
+    },
+    {
+      "name": "radadiyatejas",
+      "email": "7405303036",
+      "password": "0987654321",
+      "id": 6
+    },
+    {
+      "name": "radadiyatejas",
+      "email": "tejasradadiya",
+      "password": "54321",
+      "id": 7
+    },
+    {
+      "name": "radadiyatejas",
+      "email": "radadiyatejas28@gmail.com",
+      "password": "0987654321",
+      "id": 8
+    }
+  ],
+  "products": [
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "status": "instock",
+      "id": 1
+    },
+    {
+      "name": "Canon",
+      "price": 180989,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/j62hrww0/dslr-camera/f/4/g/eos-6d-mark-ii-eos-6d-mark-ii-canon-original-imaewgyegmb88rkn.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 2
+    },
+    {
+      "name": "TP-Link Archer",
+      "price": 2398,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/klzhq4w0/router/l/n/j/archer-c6-v3-tp-link-original-imagyzebqnmp67y7.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 3
+    },
+    {
+      "name": "Mivi Soundbar",
+      "price": 8999,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/z/1/x/-original-imagsywg5ydhmhkh.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 4
+    },
+    {
+      "name": "Steam Wash",
+      "price": 20490,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/washing-machine-new/3/c/d/-original-imagteu9vxf7hdt2.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 5
+    },
+    {
+      "name": "Kettle",
+      "price": 719,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/electric-kettle/s/h/i/ktx-1-8-l-dlx-ktx-1-8-l-dlx-bajaj-original-imagjzzzv2zzaevg.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 6
+    },
+    {
+      "name": "Voltas AC  ",
+      "price": 36990,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/air-conditioner-new/2/7/z/-original-imagkqs8qrsyxmbu.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 7
+    },
+    {
+      "name": "Mixer Grinder",
+      "price": 1199,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/k0plpjk0/mixer-grinder-juicer/b/v/s/flipkart-smartbuy-fksbmg50mkdhnbw-original-imafkfuv4ts5zumg.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 8
+    },
+    {
+      "name": "Chimney ",
+      "price": 12990,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/chimney/c/0/d/-original-imagrfzmwqnxhzpm.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 9
+    },
+    {
+      "name": "Hand Blender",
+      "price": 1999,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/hand-blender/v/b/m/hr3705-10-philips-original-imafvgpfqfnukuhh.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 10
+    },
+    {
+      "name": " Coffee Maker ",
+      "price": 1499,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/coffee-maker/d/i/v/-original-imaghz87st6zhuhh.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 11
+    },
+    {
+      "name": "Hard Disk Drive",
+      "price": 10299,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/l45xea80/external-hard-drive/hdd/c/1/p/basic-portable-drive-stjl5000400-seagate-original-imagf4m8y3j9bpen.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 12
+    },
+    {
+      "name": "HP Smart Printer",
+      "price": 10799,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/printer/v/r/t/smart-tank-all-in-one-529-hp-original-imagkqjrbah7gdgw.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 13
+    },
+    {
+      "name": "Whirlpool Refrigerator",
+      "price": 35290,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/refrigerator-new/9/j/y/-original-imagt76kk4e2gq3j.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 14
+    },
+    {
+      "name": "pen drive",
+      "price": 250,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/612/612/jwfa5jk0/pendrive/pendrive/z/f/p/sandisk-sdcz50-128g-i35-original-imafh3xkevktvq4w.jpeg?q=70",
+      "status": "instock",
+      "category": "eletronics",
+      "id": 15
+    },
+    {
+      "name": "APPLE iPhone 15 Pro Max",
+      "price": 199900,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/m/h/c/-original-imagtc3h9h6kpbkc.jpeg?q=70",
+      "status": "instock",
+      "category": "mobile",
+      "id": 16
+    },
+    {
+      "name": "SAMSUNG Galaxy ",
+      "price": 154999,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/k/a/galaxy-fold5-sm-f946bzegins-samsung-original-imagru5udkewyvyn.jpeg?q=70",
+      "status": "instock",
+      "category": "mobile",
+      "id": 17
+    },
+    {
+      "name": "realme 11 Pro 5G ",
+      "price": 27999,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/8/d/-original-imagqadpnygfnn2v.jpeg?q=70",
+      "status": "instock",
+      "category": "mobile",
+      "id": 18
+    },
+    {
+      "name": "vivo T2 Pro 5G (Black)",
+      "price": 23999,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/4/h/e/-original-imagzjhwmsamexfk.jpeg?q=70 ",
+      "status": "instock",
+      "category": "mobile",
+      "id": 19
+    },
+    {
+      "name": "realme Narzo ",
+      "price": 10873,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/0/n/r/narzo-n53-rmx3761-realme-original-imagpygzxcuysz9k.jpeg?q=70",
+      "status": "instock",
+      "category": "mobile",
+      "id": 20
+    },
+    {
+      "name": "IQOO 3 ",
+      "price": 40990,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/kjvrdzk0/mobile/k/k/r/iqoo-3-i1927-original-imafzcqszgwhrgvr.jpeg?q=70",
+      "status": "instock",
+      "category": "mobile",
+      "id": 21
+    },
+    {
+      "name": "Adidas",
+      "price": 1800,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/612/612/l58iaa80/shoe/6/s/f/12-ey3047-12-adidas-cblack-drkroy-dovgry-original-imagfyjne5wx8h35.jpeg?q=70",
+      "category": "shoes",
+      "status": "instock",
+      "id": 22
+    },
+    {
+      "name": "CAMPUS",
+      "price": 2099,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/d/o/e/9-5g-845-campus-mod-blu-wht-original-imag4g3xnanhz7zk-bb.jpeg?q=70",
+      "category": "shoes",
+      "status": "instock",
+      "id": 23
+    },
+    {
+      "name": "Bata",
+      "price": 799,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/m/y/a/-original-imaghhz3mzfrghf3.jpeg?q=70",
+      "category": "shoes",
+      "status": "instock",
+      "id": 24
+    },
+    {
+      "name": "Sparx",
+      "price": 421,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/x/m/n/10-devsm734-sparx-white-gryy-original-imagdzbkkzur6ywy-bb.jpeg?q=70",
+      "category": "shoes",
+      "status": "instock",
+      "id": 25
+    },
+    {
+      "name": "U.s Polo Assn",
+      "price": 1339,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/u/n/o/-original-imagphkz2ugxznbe.jpeg?q=70",
+      "category": "shoes",
+      "status": "instock",
+      "id": 26
+    },
+    {
+      "name": "LIBERTY",
+      "price": 1099,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/u/g/p/-original-imagg5vtczh3gpng.jpeg?q=70",
+      "category": "shoes",
+      "status": "instock",
+      "id": 27
+    },
+    {
+      "name": "Puma",
+      "price": 1198,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/832/832/ktrk13k0/shoe/z/0/b/10-386922-10-puma-white-high-risk-red-original-imag7f2htzamwgap.jpeg?q=70",
+      "category": "shoes",
+      "status": "instock",
+      "id": 28
+    }
+  ],
+  "carts": [
+    {
+      "name": "SAMSUNG Galaxy ",
+      "price": 154999,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/k/a/galaxy-fold5-sm-f946bzegins-samsung-original-imagru5udkewyvyn.jpeg?q=70",
+      "category": "mobile",
+      "userId": 2,
+      "id": 3
+    }
+  ]
+}

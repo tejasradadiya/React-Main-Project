@@ -1,0 +1,10 @@
+/* Footer.css */
+.custom-footer {
+    background-color: #247cd4; 
+    color: #fff;
+    padding: 20px; 
+  }
+  
+  .custom-footer h1 {
+    font-size: 35px;
+  }

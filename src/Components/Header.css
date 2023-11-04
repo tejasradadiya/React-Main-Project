@@ -1,0 +1,58 @@
+
+/* Header */
+.custom-navbar {
+    background-color: #247cd4; /* Change the background color to your preferred color */
+    color: #fff; /* Text color */
+    padding: 0 0;
+    
+  }
+  .container-start{
+      margin-top: 100px;
+  }
+  
+  .custom-logo img {
+    width: 110px; /* Logo size */
+  }
+  
+  .custom-search input[type="search"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  
+  /* Navigation Links */
+  .custom-nav-list {
+    list-style: none;
+  }
+  
+  .custom-nav-list .nav-link {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove underlines from links */
+    padding: 10px 20px; /* Adjust the padding */
+    border-radius: 5px; /* Rounded corners for links */
+    margin-right: 10px; /* Adjust the spacing between links */
+  }
+  
+  .custom-nav-list .nav-link:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+  }
+  
+  /* Sign Up Button */
+  .custom-signup .nav-link {
+    background-color: #ffffff; /* Button background color */
+    color: #007bff; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .custom-signup .nav-link:hover {
+    background-color: #247cd4; /* Change button background color on hover */
+    border: 1px solid #fff;
+  }
+  
+ 

@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+// import Slider from "./Slider";
 
 const Home = () => {
   const [product, setProduct] = useState([]);
@@ -11,7 +12,7 @@ const Home = () => {
 
   const getAllProduct = async () => {
     axios
-      .get(`http://localhost:3030/products`)
+      .get(`http://localhost:9000/products`)
       .then((res) => {
         setProduct(res.data);
       })
@@ -22,7 +23,7 @@ const Home = () => {
   };
   const getAllElectronics = () => {
     axios
-      .get(`http://localhost:3030/products`)
+      .get(`http://localhost:9000/products`)
       .then((res) => {
         let ans = res.data.filter((val, i) => {
           if (i < 4) {
@@ -38,7 +39,7 @@ const Home = () => {
   };
   const getAllMobile = () => {
     axios
-      .get(`http://localhost:3030/products?category=mobile`)
+      .get(`http://localhost:9000/products?category=mobile`)
       .then((res) => {
         setMobile(res.data.slice(0, 4));
       })
@@ -50,7 +51,7 @@ const Home = () => {
 
   const getAllShoes = () => {
     axios
-      .get(`http://localhost:3030/products?category=shoes`)
+      .get(`http://localhost:9000/products?category=shoes`)
       .then((res) => {
         setShoes(res.data.slice(0, 4));
       })
@@ -62,7 +63,7 @@ const Home = () => {
 
   const getAllFurniture = () => {
     axios
-      .get(`http://localhost:3030/products?category=furniture`)
+      .get(`http://localhost:9000/products?category=furniture`)
       .then((res) => {
         setFurniture(res.data.slice(0, 4));
       })
@@ -82,6 +83,9 @@ const Home = () => {
 
   return (
     <>
+    {/* <div>
+      <Slider />
+    </div> */}
       <div className="container">
         <h2 className="pt-4 pb-4">Best of Electronics</h2>
         <div className="row">

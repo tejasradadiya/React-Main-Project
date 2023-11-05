@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
+import "./login.css";
 
 const Login = () => {
 
@@ -12,7 +13,7 @@ const Login = () => {
     const handleSubmit = async() => {   
 
        try{
-        let users = await axios.get(`http://localhost:3030/users?email=${email}&password=${password}`);
+        let users = await axios.get(`http://localhost:9000/users?email=${email}&password=${password}`);
 
        if(users.data.length === 0){
             console.log("Email and Password not valid");
@@ -22,8 +23,8 @@ const Login = () => {
        localStorage.setItem('checkUserLogin',JSON.stringify(users.data[0]));
        setEmail("");
        setPassword("");
-        navigate('/productDetails');
-      
+        alert('login Succfully')
+        navigate('/product');
        }catch(err){
         console.log(err);
         return false;
@@ -33,7 +34,7 @@ const Login = () => {
 
     return (
         <>
-            <div className='container'>
+            <div className='container content'>
                 <h1 className='text-center p-5'>User Login</h1>
                 <div className='row p-5' style={{border : '1px solid gray'}}>
                     <div className='col-lg-9'>

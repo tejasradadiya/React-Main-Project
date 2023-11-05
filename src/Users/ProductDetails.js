@@ -13,7 +13,7 @@ const ProductDetails = () => {
   const getSingleRecord = async () => {
     try {
       let single = await axios.get(
-        `http://localhost:3030/products/${productId}`
+        `http://localhost:9000/products/${productId}`
       );
       if (single) {
         setProduct(single.data);
@@ -34,10 +34,10 @@ const ProductDetails = () => {
     }
     // console.log(productId);
     // console.log(checkUserLogin());
-    axios.get(`http://localhost:3030/products/${productId}`)
+    axios.get(`http://localhost:9000/products/${productId}`)
     .then((res)=>{
         console.log(res.data);
-        axios.post(`http://localhost:3030/carts`,{
+        axios.post(`http://localhost:9000/carts`,{
             name : res.data.name,
             price : res.data.price,
             qty : res.data.qty,

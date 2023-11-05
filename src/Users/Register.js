@@ -2,6 +2,8 @@ import axios from 'axios';
 import React, { useState } from 'react'
 import "./Register.css";
 import { useNavigate } from 'react-router-dom';
+
+
 const Register = () => {
 
     const [name,setName] = useState("");
@@ -10,7 +12,7 @@ const Register = () => {
     const navigate = useNavigate();
     const handleSubmit = async () => {
         try {
-            const response = await axios.post(`http://localhost:3030/users`, {
+            const response = await axios.post(`http://localhost:9000/users`, {
                 name: name,
                 email: email,
                 password: password

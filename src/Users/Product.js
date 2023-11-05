@@ -29,7 +29,7 @@ const Product = () => {
 
   const allProduct = () => {
     axios
-      .get(` http://localhost:3030/products`)
+      .get(` http://localhost:9000/products`)
       .then((res) => {
         setProduct(res.data);
       })
@@ -41,7 +41,7 @@ const Product = () => {
 
   const allCategory = () => {
     axios
-      .get('http://localhost:3030/category')
+      .get('http://localhost:9000/category')
       .then((res) => {
         setCategory(res.data);
       })
@@ -55,7 +55,7 @@ const Product = () => {
       allProduct();
     } else {
       axios
-        .get(`http://localhost:3030/products?category=${categoryName}`)
+        .get(`http://localhost:9000/products?category=${categoryName}`)
         .then((res) => {
           setProduct(res.data);
         })

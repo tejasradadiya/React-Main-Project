@@ -3,7 +3,6 @@ import "./Header.css";
 const Header = () => {
   return (
     <header className="navbar navbar-expand-lg  custom-navbar">
-      <div className="container">
         <NavLink className="navbar-brand custom-logo" to="/home">
           {" "}
           <img
@@ -62,7 +61,6 @@ const Header = () => {
             </li>
           </ul>
         </div>
-      </div>
     </header>
   );
 };

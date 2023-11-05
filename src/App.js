@@ -10,9 +10,15 @@ import Login from "./Users/Login";
 import Register from "./Users/Register";
 import Cart from "./Users/Cart";
 
-
-import AdminLayout from "./Admin/Component/AdminLayout";
-
+import AdminLayout from "./Admin/Component/AdminLayout"; 
+import AdminLogin from "./Admin/Pages/AdminLogin";
+import AdminProduct from "./Admin/Pages/AdminProduct";
+import AdminDashboard from "./Admin/Pages/AdminDashboard";
+import AdminViewProduct from "./Admin/Pages/AdminViewProduct";
+import { User } from "./Admin/Pages/User";
+import UserDetails from "./Admin/Pages/UserDetails";
+import AdminCategory from "./Admin/Pages/AdminCategory";
+import Slider from "./Admin/Pages/Slider";
 
 function App() {
   return (
@@ -30,16 +36,28 @@ function App() {
           <Route path="/cart" element={<Cart />}></Route>
         </Route>
 
-        <Route path="/admin" element={<AdminLayout />}>
+        {/* admin route  */}
+        <Route path="/admin" element={<AdminLogin />}></Route>
 
-</Route>
+        <Route element={<AdminLayout />}>
+          <Route path="/admin/dashboard" element={<AdminDashboard />}></Route>
+          <Route path="/admin/product" element={<AdminProduct />}></Route>
+          <Route
+            path="/admin/viewproduct"
+            element={<AdminViewProduct />}
+          ></Route>
+          <Route path="/admin/user" element={<User />}></Route>
+          <Route
+            path="/admin/userdetails/:userid"
+            element={<UserDetails />}
+          ></Route>
+          <Route
+            path="/admin/admincategory"
+            element={<AdminCategory/>}
+          ></Route>
+          <Route path="/admin/slider" element={<Slider />}></Route>
+        </Route>
       </Routes>
-
-
-
-
-      
-
     </BrowserRouter>
   );
 }

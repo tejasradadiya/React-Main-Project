@@ -1,0 +1,61 @@
+/* Navbar styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+}
+
+/* Brand logo */
+.navbar-brand {
+  margin-right: 4rem;
+  font-size: 24px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+/* Navbar toggler */
+.navbar-toggler {
+  background-color: #007BFF;
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+/* Search input */
+.form {
+  border: 2px solid gray;
+  border-radius: 50px;
+  box-shadow: none;
+  padding: 0.375rem 1rem;
+}
+
+/* Icons in navbar */
+.nav-link {
+  color: #007BFF;
+}
+
+/* Dropdown menus */
+.dropdown-menu {
+  background-color: #fff;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* User avatar */
+.image {
+  width: 25%;
+  border: 2px solid #007BFF;
+}
+
+/* User name */
+.nav-link span {
+  font-weight: bold;
+  margin-left: 1rem;
+}
+.admin-nav {
+  background-color: white;
+}
+
+ 

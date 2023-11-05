@@ -12,7 +12,7 @@ const Cart = () => {
 
   const deleteRecord = (val) => {
     axios
-      .delete(`http://localhost:3030/carts/${val}`)
+      .delete(`http://localhost:9000/carts/${val}`)
       .then((res) => {
         alert("cart successfully delete");
         getAllCart();
@@ -36,7 +36,7 @@ const Cart = () => {
     let data = updatedCart.map((item) => {
       if (item.id === productId) {
         axios
-          .patch(`http://localhost:3030/carts/${item.id}`, {
+          .patch(`http://localhost:9000/carts/${item.id}`, {
             qty: item.qty,
           })
           .then((res) => {
@@ -65,7 +65,7 @@ const Cart = () => {
 
   const getAllCart = () => {
     axios
-      .get(`http://localhost:3030/carts?userId=${Userauth().id}`)
+      .get(`http://localhost:9000/carts?userId=${Userauth().id}`)
       .then((res) => {
         setCart(res.data);
       })

@@ -33,16 +33,16 @@
 }
 
 .submit-button {
-  background-color: #007bff;
+  background-color: #007bff !important;
   color: white;
   padding: 10px;
   width: 100%;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+
 }
 
 .submit-button:hover {
-  background-color: #0056b3; /* Darker Blue on Hover */
+  background-color: #1d599a; /* Darker Blue on Hover */
 }

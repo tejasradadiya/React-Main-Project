@@ -2,7 +2,6 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import './style.css';
 
-
 const AdminDashboard = () => {
   const [usercnt, setUsercnt] = useState(0);
   const [productcnt, setProductcnt] = useState(0);

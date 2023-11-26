@@ -50,6 +50,11 @@ const Header = () => {
                 Contact
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink to="/Profile" className="nav-link">
+                Profile
+              </NavLink>
+            </li>
             <li className="nav-item text-center custom-signup">
               <NavLink
                 to="/signup"

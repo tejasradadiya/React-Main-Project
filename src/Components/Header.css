@@ -1,8 +1,6 @@
 
-/* Header */
 .custom-navbar {
-    background-color: #247cd4; /* Change the background color to your preferred color */
-    color: #fff; /* Text color */
+    background-color: #247cd4; 
     padding: 0 0;
     
   }
@@ -11,7 +9,7 @@
   }
   
   .custom-logo img {
-    width: 110px; /* Logo size */
+    width: 110px; 
   }
   
   .custom-search input[type="search"] {
@@ -21,38 +19,37 @@
     border-radius: 20px;
   }
   
-  
-  /* Navigation Links */
   .custom-nav-list {
     list-style: none;
   }
   
   .custom-nav-list .nav-link {
-    color: #fff; /* Link text color */
-    text-decoration: none; /* Remove underlines from links */
-    padding: 10px 20px; /* Adjust the padding */
-    border-radius: 5px; /* Rounded corners for links */
-    margin-right: 10px; /* Adjust the spacing between links */
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    margin-right: 10px; 
   }
   
   .custom-nav-list .nav-link:hover {
-    background-color: #0056b3; /* Change the background color on hover */
+    background-color: #0056b3; 
   }
   
-  /* Sign Up Button */
+
   .custom-signup .nav-link {
-    background-color: #ffffff; /* Button background color */
-    color: #007bff; /* Button text color */
-    padding: 10px 20px; /* Button padding */
-    border-radius: 5px; /* Rounded corners */
+    background-color: #ffffff; 
+    color: #007bff !important; 
+    padding: 10px 20px; 
+    border-radius: 5px;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
   }
   
   .custom-signup .nav-link:hover {
-    background-color: #247cd4; /* Change button background color on hover */
+    background-color: #247cd4 !important; 
     border: 1px solid #fff;
+    color: white !important;
   }
   
  

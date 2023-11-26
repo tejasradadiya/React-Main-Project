@@ -1,11 +1,4 @@
 
-
-.content{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
 .form-container {
   background-color: #f7f7f7;
   border: 1px solid #ccc;
@@ -44,5 +37,5 @@
 }
 
 .submit-button:hover {
-  background-color: #1d599a; /* Darker Blue on Hover */
+  background-color: #1d599a; 
 }

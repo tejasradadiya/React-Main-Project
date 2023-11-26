@@ -2,7 +2,6 @@
   "category": [
     {
       "category_name": "All",
-      "image_url": "https://img.freepik.com/premium-photo/traditional-spanish-food-hamon_181303-5306.jpg?w=740",
       "id": 1
     },
     {
@@ -68,10 +67,10 @@
       "id": 7
     },
     {
-      "name": "tejas",
+      "name": "t",
       "email": "radadiyatejas28@gmail.com",
-      "password": "0987654321",
-      "confirmpassword": "0987654321",
+      "password": "1234567890",
+      "confirmpassword": "1234567890",
       "gender": "male",
       "role": "admin",
       "id": 8
@@ -83,16 +82,22 @@
       "id": 9
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 10
+      "name": "radadiyatejas",
+      "email": "trhsd",
+      "password": "fgdf",
+      "id": 12
     },
     {
-      "name": "",
-      "email": "",
-      "password": "",
-      "id": 11
+      "name": "a",
+      "email": "a",
+      "password": "a",
+      "id": 13
+    },
+    {
+      "name": "T",
+      "email": "T",
+      "password": "T",
+      "id": 14
     }
   ],
   "products": [
@@ -102,7 +107,7 @@
       "qty": 1,
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
       "category": "eletronics",
-      "status": "outstock",
+      "status": "instock",
       "desc": "",
       "marketstatus": "best",
       "id": 1
@@ -145,7 +150,7 @@
       "price": 20490,
       "qty": 1,
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/washing-machine-new/3/c/d/-original-imagteu9vxf7hdt2.jpeg?q=70",
-      "status": "instock",
+      "status": "outstock",
       "category": "eletronics",
       "desc": "",
       "marketstatus": "best",
@@ -255,7 +260,7 @@
       "price": 250,
       "qty": 1,
       "image": "https://rukminim2.flixcart.com/image/612/612/jwfa5jk0/pendrive/pendrive/z/f/p/sandisk-sdcz50-128g-i35-original-imafh3xkevktvq4w.jpeg?q=70",
-      "status": "instock",
+      "status": "outstock",
       "category": "eletronics",
       "desc": "",
       "marketstatus": "best",
@@ -277,7 +282,7 @@
       "price": 154999,
       "qty": 1,
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/k/a/galaxy-fold5-sm-f946bzegins-samsung-original-imagru5udkewyvyn.jpeg?q=70",
-      "status": "outstock",
+      "status": "instock",
       "category": "mobile",
       "desc": "",
       "marketstatus": "best",
@@ -310,7 +315,7 @@
       "price": 10873,
       "qty": 1,
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/0/n/r/narzo-n53-rmx3761-realme-original-imagpygzxcuysz9k.jpeg?q=70",
-      "status": "outstock",
+      "status": "instock",
       "category": "mobile",
       "desc": "",
       "marketstatus": "best",
@@ -388,7 +393,7 @@
       "qty": 1,
       "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/u/g/p/-original-imagg5vtczh3gpng.jpeg?q=70",
       "category": "shoes",
-      "status": "instock",
+      "status": "outstock",
       "desc": "",
       "marketstatus": "best",
       "id": 27
@@ -403,17 +408,6 @@
       "desc": "",
       "marketstatus": "trending",
       "id": 28
-    },
-    {
-      "name": "anmol",
-      "price": "3",
-      "qty": "1",
-      "desc": "good",
-      "image": "",
-      "category": "mobile",
-      "marketstatus": "latest",
-      "status": "instock",
-      "id": 29
     }
   ],
   "carts": [
@@ -425,6 +419,177 @@
       "category": "mobile",
       "userId": 2,
       "id": 3
+    },
+    {
+      "name": "HP Smart Printer",
+      "price": 10799,
+      "qty": 6,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/printer/v/r/t/smart-tank-all-in-one-529-hp-original-imagkqjrbah7gdgw.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 8,
+      "id": 4
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 5
+    },
+    {
+      "name": "Canon",
+      "price": 180989,
+      "qty": 2,
+      "image": "https://rukminim2.flixcart.com/image/416/416/j62hrww0/dslr-camera/f/4/g/eos-6d-mark-ii-eos-6d-mark-ii-canon-original-imaewgyegmb88rkn.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 6
+    },
+    {
+      "name": "TP-Link Archer",
+      "price": 2398,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/klzhq4w0/router/l/n/j/archer-c6-v3-tp-link-original-imagyzebqnmp67y7.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 7
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 8
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 9
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 10
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 11
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 12
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 13
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 14
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 15
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 16
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 17
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 18
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 19
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 20
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 13,
+      "id": 21
+    },
+    {
+      "name": "SAMSUNG",
+      "price": 16399,
+      "qty": 1,
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/monitor/z/6/o/ls27ag30anwxxl-full-hd-27-ls27ag30anwxxl-samsung-original-imagmt5zbjewnjwp.jpeg?q=70",
+      "category": "eletronics",
+      "userId": 14,
+      "id": 22
     }
   ]
 }

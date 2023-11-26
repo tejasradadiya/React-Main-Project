@@ -9,6 +9,8 @@ import ProductDetails from "./Users/ProductDetails";
 import Login from "./Users/Login";
 import Register from "./Users/Register";
 import Cart from "./Users/Cart";
+import Profile from "./Users/Profile";
+
 
 import AdminLayout from "./Admin/Component/AdminLayout"; 
 import AdminLogin from "./Admin/Pages/AdminLogin";
@@ -33,6 +35,7 @@ function App() {
           ></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/register" element={<Register />}></Route>
+          <Route path="/Profile" element={<Profile />}></Route>
           <Route path="/cart" element={<Cart />}></Route>
         </Route>
 
